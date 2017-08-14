@@ -1,0 +1,118 @@
+// Toggle Button
+@keyframes toggle-top {
+	0% {
+		left: 4px;
+		top: 9px;
+		transform: rotate(0deg);
+	}
+	30% {
+		top: 20px;
+		width: 4px;
+		left: 20px;
+		transform: rotate(45deg);
+	}
+	100% {
+		top: 20px;
+		transform: rotate(45deg);
+		width: 35px;
+	}
+}
+@keyframes close-top {
+	0% {
+		top: 23px;
+		transform: rotate(45deg);
+		width: 35px;
+	}
+	30% {
+		top: 23px;
+		width: 4px;
+		left: 20px;
+		transform: rotate(0deg);
+	}
+	100% {
+		left: 4px;
+		top: 9px;
+		transform: rotate(0deg);
+	}
+}
+@keyframes toggle-bottom {
+	0% {
+		right: 4px;
+		bottom: 9px;
+		transform: rotate(0deg);
+	}
+	30% {
+		right: 20px;
+		bottom: 20px;
+		width: 4px;
+		transform: rotate(-45deg);
+	}
+	100% {
+		bottom: 20px;
+		transform: rotate(-45deg);
+		width: 35px;
+	}
+}
+@keyframes close-bottom {
+	0% {
+		bottom: 17px;
+		transform: rotate(-45deg);
+		width: 35px;
+	}
+	30% {
+		right: 20px;
+		bottom: 17px;
+		width: 4px;
+		transform: rotate(0deg);
+	}
+	100% {
+		right: 4px;
+		bottom: 9px;
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes down-arrow {
+	0% {
+		transform: translateY(0px);
+	}
+	70% {
+		transform: translateY(16px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+// Loader
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}

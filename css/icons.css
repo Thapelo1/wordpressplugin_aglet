@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "lmg";
+  src: url("fonts/lmg.eot");
+  src: url("fonts/lmg.eot?#iefix") format("embedded-opentype"), url("fonts/lmg.woff") format("woff"), url("fonts/lmg.ttf") format("truetype"), url("fonts/lmg.svg#lmg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[data-icon]:before {
+  font-family: "lmg" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "lmg" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-facebook:before {
+  content: "a"; }
+
+.icon-twitter:before {
+  content: "b"; }
+
+.icon-instagram:before {
+  content: "c"; }
+
+.icon-linkedin:before {
+  content: "d"; }
+
+.icon-spec-weight:before {
+  content: "e"; }
+
+.icon-spec-weather:before {
+  content: "f"; }
+
+.icon-spec-processor:before {
+  content: "g"; }
+
+.icon-spec-power:before {
+  content: "h"; }
+
+.icon-spec-output:before {
+  content: "i"; }
+
+.icon-spec-opacity:before {
+  content: "j"; }
+
+.icon-spec-misc:before {
+  content: "k"; }
+
+.icon-spec-hertz:before {
+  content: "l"; }
+
+.icon-nav-arrow-left:before {
+  content: "q"; }
+
+.icon-nav-arrow-right:before {
+  content: "r"; }
+
+.icon-nav-close-arrow:before {
+  content: "s"; }
+
+.icon-nav-open-arrow:before {
+  content: "t"; }
+
+.icon-spec-angle:before {
+  content: "u"; }
+
+.icon-spec-colors:before {
+  content: "v"; }
+
+.icon-spec-density:before {
+  content: "w"; }
+
+.icon-spec-dimensions:before {
+  content: "x"; }
+
+.icon-spec-frequency:before {
+  content: "y"; }
+
+.icon-icon-winner:before {
+  content: "z"; }
+
+.icon-icon-training:before {
+  content: "A"; }
+
+.icon-icon-talent:before {
+  content: "B"; }
+
+.icon-icon-support:before {
+  content: "C"; }
+
+.icon-icon-installation:before {
+  content: "D"; }
+
+.icon-icon-engineering:before {
+  content: "E"; }
+
+.icon-icon-design:before {
+  content: "F"; }
+
+.icon-icon-develop:before {
+  content: "G"; }
+
+.icon-icon-define:before {
+  content: "H"; }
+
+.icon-icon-1:before {
+  content: "I"; }
+
+.icon-email:before {
+  content: "J"; }
+
+.icon-arrow-up:before {
+  content: "K"; }
+
+.icon-arrow-down:before {
+  content: "L"; }
+
+.icon-logo-touring:before {
+  content: "m"; }
+
+.icon-logo-systems-integration:before {
+  content: "n"; }
+
+.icon-logo-show-technology:before {
+  content: "o"; }
+
+.icon-logo-corp:before {
+  content: "p"; }
